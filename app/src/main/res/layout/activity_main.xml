@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:paddingLeft="@dimen/activity_horizontal_margin"
+		android:paddingRight="@dimen/activity_horizontal_margin"
+		android:paddingTop="@dimen/activity_vertical_margin"
+		android:paddingBottom="@dimen/activity_vertical_margin"
+		tools:context=".MainActivity">
+
+	<LinearLayout
+			android:layout_marginTop="10dp"
+			android:layout_marginRight="10dp"
+			android:layout_alignParentRight="true"
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+		<TextView
+				android:id="@+id/label_message"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+
+		<TextView
+				android:id="@+id/label_devices_num"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+	</LinearLayout>
+
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:layout_centerInParent="true"
+			android:paddingBottom="45dp">
+
+		<TextView
+				android:id="@+id/label_cpu_temp"
+				android:text="45.1°C"
+				android:layout_gravity="center_horizontal"
+				android:textSize="80sp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+	</LinearLayout>
+
+	<Button
+			android:id="@+id/button_update"
+			android:layout_width="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:layout_alignParentBottom="true"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="45dp"
+			android:text="@string/update"/>
+</RelativeLayout>

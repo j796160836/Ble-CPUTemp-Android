@@ -1,0 +1,25 @@
+<resources>
+	<string name="app_name">CPUTemp</string>
+	<string name="action_settings">Settings</string>
+
+	<!-- Advertising -->
+	<string name="label_advertisingStatus">Advertising Status</string>
+	<string name="status_advertising">Advertising</string>
+	<string name="status_notAdvertising">Not Advertising</string>
+	<string name="status_advDataTooLarge">Not Advertising. Advertisement is larger than 31 bytes.</string>
+	<string name="status_advFeatureUnsupported">Not Advertising. Advertising not supported.</string>
+	<string name="status_advInternalError">Not Advertising. Internal error occurred.</string>
+	<string name="status_advTooManyAdvertisers">Not Advertising. No advertising instance is available.</string>
+
+	<!-- Connection -->
+	<string name="label_connectionStatus">Connection Status</string>
+	<string name="status_devicesConnected">Devices Connected:</string>
+	<string name="status_errorWhenConnecting">An error occurred when connecting to a device. Error Code</string>
+
+	<string name="status_noLeAdv">BLE Advertising function is not supported.</string>
+	<string name="update">Update</string>
+	<string name="stop_advertising">Stop advertising</string>
+	<string name="please_enable_bluetooth">Please enable bluetooth</string>
+	<string name="ble_start_advertising">BLE Advertising started.</string>
+	<string name="cpu_temperature" format="false">CPU temperature: %.1f°C</string>
+</resources>
